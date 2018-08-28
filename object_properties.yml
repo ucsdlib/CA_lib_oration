@@ -1,0 +1,2435 @@
+"agent:contributor":
+  definition: "A person or organization responsible for making contributions to the resource."
+  usage_note: "Use as the broadest possible role, i.e. when lacking specific information on an agent's role, or the role is unclear or unknown. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#contributor"
+  sample_value: "Smith, Joe S."
+  range:
+    uri: "ucsd:Agent"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Contributor"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"agent:creator":
+  definition: "A person or organization responsible for creating the resource."
+  usage_note: "Can be used when lacking specific information on an agent's exact role in creating the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#creator"
+  sample_value: "Alphabet, Inc."
+  range:
+    uri: "ucsd:Agent"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Creator"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"agent:publisher":
+  definition: "A person or organization responsible for publishing the resource."
+  usage_note: "Used when the exact publishing entity is known, since these will become authorities"
+  predicate: "http://dublincore.org/2012/06/14/dcelements#publisher"
+  sample_value: null
+  range:
+    uri: "ucsd:Agent"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"agent:[role]":
+  definition: "This isn't an actual property, but a representation of agent roles. "
+  usage_note: "See Agent Types list for full valid list of roles"
+  predicate: "[Agent Types Predicate] e.g. agent:author"
+  sample_value: "Smith, Joe S."
+  range:
+    uri: "ucsd:Agent"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: "MARC Relator codes/URIs and also local roles"     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Creator"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "[Role]"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:spatial":
+  definition: "Spatial characteristics of described resource, such as acountry, city, region, address or other geographical term. Captures aboutness."
+  usage_note: "In general, LoC's label is close to our ideal label. But, the ideal format is the place followed in parentheses by its next highest division (so a state for a city in the US, a country or region for other cities)."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#spatial"
+  sample_value: "Jalisco (Mexico)"
+  range:
+    uri: "ucsd:Place"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:temporal":
+  definition: "Temporal characteristics of the described resource. Captures aboutness."
+  usage_note: "These can be geological time periods, or humanistic ones associated with e.g. artistic movements"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#temporal"
+  sample_value: "Pleistocene Era"
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"date":
+  definition: "A point or period of time associated with an event in the lifecycle of the resource."
+  usage_note: "If you have a more specific date, use the more specific types, e.g. collection date, event date"
+  predicate: "http://dublincore.org/2012/06/14/dcelements#date"
+  sample_value: "Wed Jul 14 00:00:00 GMT-08:00 1971"
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Date"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"date:created":
+  definition: "A date associated with the creation of the resource. "
+  usage_note: "The date the resource was created"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#created"
+  sample_value: null
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Creation Date"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"date:event":
+  definition: "The date of the event depicted in the resource."
+  usage_note: "Typically these dates are for objects representing a performance or other event"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#eventDate"
+  sample_value: "Wed Apr 08 00:00:00 GMT-08:00 1908"
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Event Date"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"date:collection":
+  definition: "The date that the physical or digital materials represented by the object were collected."
+  usage_note: "Can be used from an archival context to record when materials were collected, or when a researcher or other entity collected research materials or findings."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#collectionDate"
+  sample_value: "June 1, 2013 to July, 18 2013"
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Date Collected"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"date:copyrighted":
+  definition: "The date that the resource was copyrighted."
+  usage_note: "Used when the exact copyright date is crucial to the object's context"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#dateCopyrighted"
+  sample_value: 1963
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"date:issue":
+  definition: "The year in which the resource was issued (e.g., the year a digital collection was first viewable by the public)."
+  usage_note: "Primarily used for minting DOIs and to work with external services, but can also be used to indicate when the resource was issued"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#issued"
+  sample_value: 2017
+  range:
+    uri: "edm:TimeSpan"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Date Issued"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:description":
+  definition: "A description or summary of a resource"
+  usage_note: "This note is more specialized than a general note. It gives the overall summary of the item, in a more detailed manner than the brief description"
+  predicate: "http://dublincore.org/2012/06/14/dcelements#description"
+  sample_value: "A alteration by unnamed student(s) intended as a parody of De Saint Phalle's Sun God."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Description"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:bibliographic citation":
+  definition: "A bibliographic reference for the resource."
+  usage_note: "Include sufficient bibliographic detail to identify the resource as unambiguously as possible."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#bibliographicCitation"
+  sample_value: "[Title, Date]. Leo Szilard Papers. MSS 32. Special Collections & Archives, UC San Diego Library."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:table of contents":
+  definition: "A list of subunits of the resource."
+  usage_note: "Mainly used in context of a book or physical music piece"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#tableOfContents"
+  sample_value: "1. Beginnings 2. The Academic Plan 3. The 1966 Revision 4. Conclusion"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:arrangement":
+  definition: "Information about the organization and arrangement of a collection of items represented by the object."
+  usage_note: "Intellectual arrangement or the original/archival resources"
+  predicate: "http://id.loc.gov/ontologies/bibframe/arrangement"
+  sample_value: "Located in the series \"Correspondence\" in the Leo Szilard Papers, MSS 32."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Arrangement"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:biography":
+  definition: "A biographical note related to the entity represented in the resource."
+  usage_note: "Use when a biographical note is important to understanding the resource or collection "
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#biography"
+  sample_value: "Edith Emerson (July 27, 1888 \u2013 November 21, 1981) was an American painter, muralist, illustrator, writer, and curator. She was the life partner of acclaimed muralist Violet Oakley and served as the vice-president, president, and curator of the Woodmere Art Museum in the Chestnut Hill neighborhood of Philadelphia, Pennsylvania, from 1940 to 1978."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"brief description":
+  definition: "A short description of a collection, specifically for use in the Collection Search results.  Only for use in collection level records and does not display in the full Collection level record view."
+  usage_note: "Only used in the context of collection level records (viewed when browsing the collection). Character limit is enforced"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#briefDescription"
+  sample_value: "Photographs and design drawings of the site-specific public sculptures in the UC San Diego Stuart Collection."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - "search_results"
+    display_order: null, null
+    display_suppressed: null
+
+"note:credits":
+  definition: "Information in note form of credits for persons or organizations who have participated in the creation and/or production of the resource."
+  usage_note: "Only used when special recognition has been made in the source data, or when a data provider wishes to credit other entities. Not to be used to convey copyright-related information, or to record performers (that is recorded in note:performer)"
+  predicate: "http://id.loc.gov/ontologies/bibframe/credits"
+  sample_value: "Roger Reynolds, Bryan Reynolds, Joshua Tonies, Nick Drashner, Andy Muehlhausen, Trevor Henthorn, Hunjoo Jung, Tracy Cornish"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Credits"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:custodial history":
+  definition: "Information about the provenance, such as origin, ownership and custodial history (chain of custody), of a resource."
+  usage_note: "Only use when the provenance or chain of custody is necessary for grasping the context of the resource"
+  predicate: "http://id.loc.gov/ontologies/bibframe/custodialHistory"
+  sample_value: "Originally owned by the British Museum"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:edition":
+  definition: "Information identifying the edition or version of the resource and associated statements of responsibility for the edition; usually transcribed."
+  usage_note: "Used primarily when the edition information is transcribed on the object"
+  predicate: "http://id.loc.gov/ontologies/bibframe/editionStatement"
+  sample_value: "ICPSR ed., OSIRIS IV version."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:material details:finds":
+  definition: "Reports \"finds\" in a scientific context about an object"
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#finds"
+  sample_value: "Some slag. No ceramics."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:funding":
+  definition: "Information identifying organizations that have funded the creation of a resource."
+  usage_note: "Record any source of funding (grants etc.) the data provider thinks is relevant"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#funding"
+  sample_value: "California Air Resources Board (Agreement No: 13-330)"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:note":
+  definition: "General textual information relating to a resource"
+  usage_note: "These are repeatable and can be formatted to have prefixes or hacky \"headers\". But, be advised that multiple general notes will be concatenated into one block of text with a header of \"Note\" in the UI"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#abstract"
+  sample_value: "Title derived from original collection inventory."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Note"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:inscription":
+  definition: "Records information that has been inscribed on the physical form represented by the resource. "
+  usage_note: "Record exactly as inscribed on the object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#inscription"
+  sample_value: "Mrs. D.J. Chase 613 Belden St. Peekskill New York"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:material details:limits":
+  definition: null
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#limits"
+  sample_value: "Installation walls, W-L14."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:local attribution":
+  definition: "Denotes which library program is responsible for creating or providing the resource."
+  usage_note: "Is selected at time of ingest from 3 controlled values: DLDP, RDCP, and SCA."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#localAttribution"
+  sample_value: "Digital Object Made Available By: Special Collections & Archives, UC San Diego, La Jolla, 92093-0175 (http://libraries.ucsd.edu/collections/sca/)"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: "Controlled vocab for UCSD units"     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Digital Object Made Available By"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:location of originals":
+  definition: "Information on the physical arrangement of the source materials used to create the object. Can also contain location and contact information for the user to request access to the materials."
+  usage_note: "Physical location and arrangement of the original/archival resources "
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#locationOfOriginals"
+  sample_value: "This digital image is a surrogate of an item from the Leo Szilard Papers (MSS 32, Box 18, Folder 30)."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:material details":
+  definition: "Records aspects about the object's physical representation that aren't strictly dimensions and measurements"
+  usage_note: "Record aspects about the physical object being represented that aren't strictly physical dimensions/measurements"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#materialDetails"
+  sample_value: "Reel was in poor condition, side 2 could not be salvaged"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:methods":
+  definition: "Information on the methods in which the researcher carried out their research, in relation to the resource."
+  usage_note: "Use for when a collection was produced using certain scientific methodology"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#methodology"
+  sample_value: "Acoustic backscattering data were collected between stations using a hull-mounted Simrad EK60 split-beam echo sounder"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Methods"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:performer":
+  definition: "Records informations about the performers of the resource, and can indicate their role, e.g. instruments used"
+  usage_note: "If possible, record the performer(s) name as well as their role in the performace (e.g. violin)"
+  predicate: null
+  sample_value: "Janos Negyesy, violin ; Aleck Karis, piano"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: null
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:physical description":
+  definition: "Physical dimensions or characteristics of the physical form of the object."
+  usage_note: "Record physical dimensions/measurements of the object represented"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#physicalDescription"
+  sample_value: "1 sound tape reel : analog, 7 1/2 ips 5 in., 1/2 in. tape"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:preferred citation":
+  definition: "Citation to the resource preferred by its custodian of the resource (i.e. UCSD)."
+  usage_note: "Record a citation for the user in order for them to cite the resource at hand. Although there is no required format, it should adhere to general citation guidelines for internet resources, and use full/valid URLs when possible"
+  predicate: "http://id.loc.gov/ontologies/bibframe/preferredCitation"
+  sample_value: "Keen, Eric M; Wray, Janie; Meuter, Hermann; Thompson, Kim-Ly; Barlow, Jay P; Picard, Chris R (2017): Data from: 'Whale Wave': shifting strategies structure the complex use of critical fjord habitat by humpbacks. UC San Diego Library Digital Collections. http://doi.org/10.6075/J0GT5K3B"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Cite This Work"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:publication":
+  definition: "Information on the location and/or entity responsible for publication of the resource."
+  usage_note: "This is a place for the uncontrolled \"place\", entity, etc. for a publisher. If the exact entity is known, use the more controlled agent:publisher"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#publication"
+  sample_value: "Shanghai: Shanghai ren min mei shu chu ban she (上海: 上海人民美术出版社)"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:related publications":
+  definition: "References and cites publications that are related to, or were derived from, or are otherwise related to the resource."
+  usage_note: "Use a full citation to a publication (e.g. journal article) related to the object, and a DOI link if available"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#relatedPublications"
+  sample_value: "Bushong EA, Martone ME, Ellisman MH (2004). Maturation of astrocyte morphology and the establishment of astrocyte domains during postnatal hippocampal development. Int J Dev Neurosci, 22(2):73-86. doi: 10.1016/j.ijdevneu.2003.12.008 PMID: 15036382"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:material details:relationship to other loci":
+  definition: "Information on the context of this locus as it relates to other loci in an archaeological site."
+  usage_note: "Typically contains information about the locus immediately above, as well as the locus immediately below. Can also denote if it is equivalent to another locus."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#relationshipToOtherLoci"
+  sample_value: "Matrix above: 19826 Matrix below: 19823 Equal to: 19824"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:scope and content":
+  definition: "Characterization that epitomizes the primary content of a resource, e.g., field recording of birdsong; combined time series analysis and graph plotting system. Can also reference information outside the scope of the specific object, and any relevant content."
+  usage_note: "Typically this is broader of a note than arrangement, and contains information about scope and content in a general sense. To describe how a file or directory is strucured, for instance, an arrangement note is more appropriate"
+  predicate: "http://id.loc.gov/ontologies/bibframe/natureOfContent"
+  sample_value: "The dataMares Collection contains a selection of datasets associated with scientific research, some of which is featured at http://datamares.ucsd.edu. "
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: "Scope and Content"   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:statement of responsibility":
+  definition: "Statement relating to any persons, families, or corporate bodies responsible for the creation of, or contributing to the content of a resource; usually transcribed."
+  usage_note: "For most cases, this information will be taken from the source data, i.e. MARC data. Usually this information is transcribed: to credit people involved in the creation of a resource beyond transcribed information, use note:credits"
+  predicate: "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
+  sample_value: "Gary Snyder ; preface by Nathaniel Tarn ; edited by Donald Allen."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:material details:storage method":
+  definition: "Information about the physical storage method of a scientific sample"
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#storageMethod"
+  sample_value: "room temperature, dry"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:series":
+  definition: "Information relating to the publication of the resource, e.g. volume, number, issue"
+  usage_note: "Although this information is uncontrolled, care should be taken to ensure this information is correct. The controlled series name is recorded in subject:series"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#seriesNote"
+  sample_value: "Volume 6, Issue 10"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: null
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:technical details":
+  definition: "Information that can reflect technical requirements needed to use the resource (both software and hardware). Can also provide information about anomalies, bugs, and other issues that are known about the files in the digital object."
+  usage_note: "Use to record technical aspects or requirements for the resource"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#technicalDetails"
+  sample_value: "R routines were run in R 3.1.2 "
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:venue":
+  definition: "Information about where the object was created or performed. "
+  usage_note: "Typically this records the place at which the resource was performed (usually an event). For a more controlled place/location, use subject:spatial"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#venue"
+  sample_value: "Antin's poetry reading was recorded at Dr. Generosity's. Stark's reading was recorded at Ikon"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:work featured":
+  definition: "Information about entities and specific intellectual works that are featured in the object."
+  usage_note: "Use a controlled form of the creator's name (including dates if part of the controlled name), and the controlled form of the work's name."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#workFeatured"
+  sample_value: "Grapes of wrath (Steinbeck, John)"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"note:material details:water depth":
+  definition: "Information about the depth at which an oceanographic sample was collected"
+  usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#waterDepth"
+  sample_value: "1570-1425 meters"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier":
+  definition: "A generic identifier for an object."
+  usage_note: "Use a more specific identifier type if possible. If the identifier does not need to be displayed and/or makes no sense from a user perspectice, use identifier:local"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#identifier"
+  sample_value: "c104"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:accession":
+  definition: "An archival accession number for the object."
+  usage_note: "Only use when the original accession numbers are important (e.g. for collection maintenance)"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#accessionId"
+  sample_value: "40822459663"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:ark":
+  definition: "An ARK identifier for an object."
+  usage_note: "If pointing to a related DAMS object, use related resource instead"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#arkId"
+  sample_value: "bb1234567x"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:basket number":
+  definition: "A number for a basket in an archaeological site that the object represents"
+  usage_note: "Use basket IDs as supplied by data provider"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#basketId"
+  sample_value: "w09b0630"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:call number":
+  definition: "A call number identifier for the object"
+  usage_note: "Only use when the original call numbers are important, e.g. for collection management purposes"
+  predicate: "http://www.loc.gov/standards/mods/rdf/v1/#classification"
+  sample_value: "10.1000/182"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:collection number":
+  definition: null
+  usage_note: null
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#collectionNumberId"
+  sample_value: "3558"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:doi":
+  definition: "A Digital Object Identifier for the object"
+  usage_note: "Do not use this identifier if already specified in a preferred citation"
+  predicate: "http://id.loc.gov/vocabulary/identifiers/doi"
+  sample_value: "19671209__01"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:edm":
+  definition: "The Electronic Distance Measurement ID for a resource, usually used in an archaeological dig"
+  usage_note: "Use EDM IDs as supplied by data provider (only occurs in archaeological projects)"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#edmId"
+  sample_value: "SIO001505"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:event number":
+  definition: "A controlled identifier for an event; used to group objects in the same event together"
+  usage_note: "The source data should contain the event IDs for objects. They are used to group objects from the same event (e.g. a day of concerts) into one grouping"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#eventId"
+  sample_value: "A 188"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: "Canned search created for event numbers"
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:file name":
+  definition: "A source file name for the file of an object"
+  usage_note: "Only use when the original filenames are important and have been altered"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#filenameId"
+  sample_value: "19600122"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:igsn":
+  definition: "The International Geo Sample Number for the object"
+  usage_note: "Use IGSN IDs as supplied by data provider"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#igsnId"
+  sample_value: "580"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:local":
+  definition: "An internally-used identifier"
+  usage_note: "As a local identifier does not publically display, use only in cases where the identifier is necessary for administrative / collection management purposes"
+  predicate: "http://id.loc.gov/vocabulary/identifiers/local"
+  sample_value: "7TOW04WT-036D"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:locus number":
+  definition: "A number for a locus in an archaeological site that the object represents"
+  usage_note: "Use locus IDs as supplied by data provider"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#locusId"
+  sample_value: "/20775/bb1234567x"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:negative":
+  definition: "An identifier for a photo negative print"
+  usage_note: "Only use when the original negative print IDs are important (e.g. essential for collection management)"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#negativeId"
+  sample_value: "FVLF-0052"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:news release number":
+  definition: "The assigned news release ID for an object"
+  usage_note: "Use news release IDs as supplied by data provider"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#newsReleaseId"
+  sample_value: "007-014"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:oclc number":
+  definition: "The \"OCN\" or OCLC Control Number for an object"
+  usage_note: "Only use when the OCLC numbers are important, e.g. for collection management purposes"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#oclcId"
+  sample_value: "caljsioa_ac608550030"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:registration number":
+  definition: null
+  usage_note: null
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#registrationId"
+  sample_value: "24631790"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:catalog record":
+  definition: "The identifier from the ILS or catalog (currently Roger records)"
+  usage_note: "Only indicate the \"bib\" number. Do not include any hyperlink-specific IDs and suffixes, e.g. \"~9\""
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#catalogId"
+  sample_value: "b33478636"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:sample number":
+  definition: "The identifier for the sample represented by the object"
+  usage_note: "Use sample IDs as supplied by data provider"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#sampleId"
+  sample_value: "256"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"identifier:sequence":
+  definition: "An identifier for the group of objects that this resource belongs to"
+  usage_note: "Use sequence IDs as supplied by data provider"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#sequenceId"
+  sample_value: "41"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"identifier:shared shelf":
+  definition: "The identifier for this object taken from a Shared Shelf instance"
+  usage_note: "Use for resources that have explicit IDs in Shared Shelf"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#sharedShelfId"
+  sample_value: "24953"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: true
+
+"language":
+  definition: "Language(s) of described resource. Strongly recommended for text materials."
+  usage_note: "Resources can have multiple languages represented. It is not necessary to record the language of non-texual or non-audiovisual content."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#language"
+  sample_value: "eng"
+  range:
+    uri: "xsd:anyURI  "
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: "ISO 639-2"     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: "true?"
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"related resource":
+  definition: "A related resource; specifically its title and URL."
+  usage_note: "For web resources, provide a label as close to the title of the web site as possible. Otherwise, provide a helpful label that conveys context on how the resource is related"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#relation"
+  sample_value: "Baja California and the West Postcard Collection @{type=online finding aid; uri=http://roger.ucsd.edu/record=b3528703~S9}"
+  range:
+    uri: "ucsd:relatedResource"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:topic":
+  definition: "A topic or subject of the resource."
+  usage_note: "For sources of information that are genres (e.g. FAST genres), record them as topics."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#subject"
+  sample_value: "American poetry"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:anatomy":
+  definition: "An anotomical part that is a subject of the resource."
+  usage_note: "Use for resources that are about a certain part of anatomy"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#anatomy"
+  sample_value: "Protoplasmic astrocyte"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Anatomy"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:cruise":
+  definition: "A research event, bounded by a start and end point (both in time and space)."
+  usage_note: "As much as possible, use a controlled form of the cruise / ship / expedition"
+  predicate: "olcruise:hasCruise"
+  sample_value: null
+  range:
+    uri: "ucsd:Event"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Cruise"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:cultural context":
+  definition: "The cultural group represented in the resource."
+  usage_note: "As much as possible, use a controlled form of the cultural context, using vocabularies like Getty AAT"
+  predicate: "https://s3.amazonaws.com/VRA/ontology.html#culturalContext"
+  sample_value: "Egyptian (ancient)"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Cultural Context"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:genre form":
+  definition: "Form category or genre to which a resource belongs"
+  usage_note: "DMPS decided to not encode a difference between genre and topic, the D4 to D5 migration will need to account for the mapping"
+  predicate: "http://id.loc.gov/ontologies/bibframe/genreForm"
+  sample_value: null
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:lithology":
+  definition: "The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected."
+  usage_note: "Typically, an archaeological collection will provide these somewhat controlled terms"
+  predicate: "http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms"
+  sample_value: "terrigenous"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Lithology"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:name":
+  definition: "A name of the person that the resource is about."
+  usage_note: "Ensure that if a name occurs more than once in a collection, it appears in the exact same form to avoid creation of duplicate authority records"
+  predicate: "http://xmlns.com/foaf/spec/#term_name"
+  sample_value: "Einstein, Albert, 1879-1955"
+  range:
+    uri: "ucsd:Agent"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Topic"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:scientific name":
+  definition: "The full scientific name of a species that the object is about."
+  usage_note: "This only applies to the species (and equivalent) level of classification, and certainly not higher orders of classification, i.e. not group, family, etc."
+  predicate: "http://rs.tdwg.org/dwc/terms/scientificName"
+  sample_value: "Rattus norvegicus"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Scientific Name"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"subject:series":
+  definition: "Contains the (standardized/authoritative/prefLabel) title of the serial, group of elated items, or event"
+  usage_note: "Use the controlled form of the series name if adding to an existing series. If creating a new series, ensure all object have the same series name"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#series"
+  sample_value: "Experiment title: Intracellular injection of an astrocyte"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Topic?"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"title":
+  definition: "The title of the resource."
+  usage_note: "Preferrably, make the titles of resources unique within a collection. However, there is no hard rule against duplicate object titles"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#title"
+  sample_value: "Sun God: decorated as Rambird, 1986: front view"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"title:alternative":
+  definition: "An alternative title for the resource."
+  usage_note: "For alternate transcribed titles, it may be more appropriate to record that in the statement of responsibility, depending on the source data"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#alternative"
+  sample_value: "Rambird, 1986"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - "?"
+    display_order: null, null
+    display_suppressed: null
+
+"title:part name":
+  definition: "A part or section name of a title"
+  usage_note: "Use a string that designates the part name"
+  predicate: "http://www.loc.gov/standards/mods/rdf/v1/#partName"
+  sample_value: null
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"title:part number":
+  definition: "A part or section number of a title"
+  usage_note: "Use a string that designates the part number"
+  predicate: "http://www.loc.gov/standards/mods/rdf/v1/#partNumber"
+  sample_value: null
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"title:subtitle":
+  definition: "A subtitle for the resource (usually transcribed)."
+  usage_note: "Use a string that captures the subtitle"
+  predicate: "http://www.loc.gov/standards/mads/rdf/v1.html#SubTitleElement"
+  sample_value: "front view"
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"type of resource":
+  definition: "The nature or genre of the resource."
+  usage_note: "Emphasis is placed on the nature of the resource, not the strict digital form. For instance, although a file may technically be a binary object, its nature is might be as text."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#type"
+  sample_value: "Still Image"
+  range:
+    uri: "skos:Concept"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: "id.loc Resource Types"     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: true
+    facet_group: "Format"
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"copyright status":
+  definition: "Information on the known copyright status of a resource."
+  usage_note: "Selected from controlled values: Under copyright, Public domain, or Unknown. Generates boilerplate text."
+  predicate: "http://id.loc.gov/vocabulary/preservation/copyrightStatus"
+  sample_value: "Under copyright"
+  range:
+    uri: "xsd:anyURI"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: "id.loc copyrightStatus - http://id.loc.gov/vocabulary/preservation/copyrightStatus.html"     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"rights statement":
+  definition: "Statement about various property rights associated with the resource, including intellectual property rights"
+  usage_note: "Use when specific information regarding intellectual property rights, and e.g. information about how permission was sought and obtained to use the resource"
+  predicate: "http://www.europeana.eu/schemas/edm/rights"
+  sample_value: "Use: This work is available from the UC San Diego Library. This digital copy of the work is intended to support research, teaching, and private study."
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"rights note":
+  definition: "A free text note capturing copyright information"
+  usage_note: null
+  predicate: "http://dublincore.org/2012/06/14/dcterms#rights "
+  sample_value: "Gypsy's Window, Beyond the End, Homage, A Ring of Changes by Denise Levertov, from COLLECTED EARLIER POEMS 1940-1960, copyright © 1957 by Denise Levertov. Used by permission of New Directions Publishing Corp. "
+  range:
+    uri: "rdfs:Literal"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: null
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"rights holder":
+  definition: "A person or organization owning or managing rights over the resource."
+  usage_note: "Use a controlled name for the entity. New entities will be created as agent authorities"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#rightsHolder"
+  sample_value: "UC Regents"
+  range:
+    uri: "ucsd:Agent"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: null     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null
+
+"license":
+  definition: "An associated license for the object (i.e. Creative Commons license, software licenses, etc.)"
+  usage_note: "It is most often used for RDCP collections, and can be used by the owner to license their software. Licenses must be granted by the owner of the resource"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#license"
+  sample_value: "CC-BY"
+  range:
+    uri: "xsd:anyURI"
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list: "DAMS licenses controlled vocabulary"     
+  validations: 
+    cardinality: null
+  facet: 
+    faceted: false
+    facet_group: null
+  search:
+    search_indexed: null
+    search_group: null
+  display:
+    display_label: null   
+    display_group: 
+      - null
+    display_order: null, null
+    display_suppressed: null

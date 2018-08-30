@@ -10,21 +10,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Contributor"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "agent:creator":
   definition: "A person or organization responsible for creating the resource."
@@ -38,27 +37,26 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Creator"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "agent:publisher":
   definition: "A person or organization responsible for publishing the resource."
   usage_note: "Used when the exact publishing entity is known, since these will become authorities"
   predicate: "http://dublincore.org/2012/06/14/dcelements#publisher"
-  sample_value: null
+  sample_value:
   range:
     uri: "ucsd:Agent"
   controlled_values: 
@@ -66,21 +64,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "agent:[role]":
   definition: "This isn't an actual property, but a representation of agent roles. "
@@ -96,19 +93,18 @@
       sub-authority:
     list: "MARC Relator codes/URIs and also local roles"     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "[Role]"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:spatial":
   definition: "Spatial characteristics of described resource, such as acountry, city, region, address or other geographical term. Captures aboutness."
@@ -122,21 +118,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:temporal":
   definition: "Temporal characteristics of the described resource. Captures aboutness."
@@ -150,21 +145,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "date":
   definition: "A point or period of time associated with an event in the lifecycle of the resource."
@@ -178,27 +172,26 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Date"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "date:created":
   definition: "A date associated with the creation of the resource. "
   usage_note: "The date the resource was created"
   predicate: "http://dublincore.org/2012/06/14/dcterms#created"
-  sample_value: null
+  sample_value:
   range:
     uri: "edm:TimeSpan"
   controlled_values: 
@@ -206,21 +199,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Creation Date"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "date:event":
   definition: "The date of the event depicted in the resource."
@@ -234,21 +226,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Event Date"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "date:collection":
   definition: "The date that the physical or digital materials represented by the object were collected."
@@ -262,21 +253,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Date Collected"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "date:copyrighted":
   definition: "The date that the resource was copyrighted."
@@ -290,21 +280,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "date:issue":
   definition: "The year in which the resource was issued (e.g., the year a digital collection was first viewable by the public)."
@@ -318,21 +307,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Date Issued"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:description":
   definition: "A description or summary of a resource"
@@ -346,21 +334,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Description"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:bibliographic citation":
   definition: "A bibliographic reference for the resource."
@@ -374,21 +361,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:table of contents":
   definition: "A list of subunits of the resource."
@@ -402,21 +388,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:arrangement":
   definition: "Information about the organization and arrangement of a collection of items represented by the object."
@@ -430,21 +415,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Arrangement"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:biography":
   definition: "A biographical note related to the entity represented in the resource."
@@ -458,21 +442,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "brief description":
   definition: "A short description of a collection, specifically for use in the Collection Search results.  Only for use in collection level records and does not display in the full Collection level record view."
@@ -486,21 +469,21 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
+    display_label:   
     display_group: 
       - "search_results"
-    display_order: null, null
-    display_suppressed: null
+    display_order:
+    display_suppressed:
 
 "note:credits":
   definition: "Information in note form of credits for persons or organizations who have participated in the creation and/or production of the resource."
@@ -514,21 +497,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Credits"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:custodial history":
   definition: "Information about the provenance, such as origin, ownership and custodial history (chain of custody), of a resource."
@@ -542,21 +524,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:edition":
   definition: "Information identifying the edition or version of the resource and associated statements of responsibility for the edition; usually transcribed."
@@ -570,21 +551,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:material details:finds":
   definition: "Reports \"finds\" in a scientific context about an object"
@@ -598,21 +578,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:funding":
   definition: "Information identifying organizations that have funded the creation of a resource."
@@ -626,21 +605,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:note":
   definition: "General textual information relating to a resource"
@@ -654,21 +632,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Note"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:inscription":
   definition: "Records information that has been inscribed on the physical form represented by the resource. "
@@ -682,24 +659,23 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:material details:limits":
-  definition: null
+  definition:
   usage_note: "This will normally be taken from a data provider or researcher who is noting aspects of the physical thing that the resource represents"
   predicate: "http://library.ucsd.edu/ontology/dams4.2#limits"
   sample_value: "Installation walls, W-L14."
@@ -710,21 +686,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:local attribution":
   definition: "Denotes which library program is responsible for creating or providing the resource."
@@ -740,19 +715,18 @@
       sub-authority:
     list: "Controlled vocab for UCSD units"     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Digital Object Made Available By"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:location of originals":
   definition: "Information on the physical arrangement of the source materials used to create the object. Can also contain location and contact information for the user to request access to the materials."
@@ -766,21 +740,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:material details":
   definition: "Records aspects about the object's physical representation that aren't strictly dimensions and measurements"
@@ -794,21 +767,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:methods":
   definition: "Information on the methods in which the researcher carried out their research, in relation to the resource."
@@ -822,26 +794,25 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Methods"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:performer":
   definition: "Records informations about the performers of the resource, and can indicate their role, e.g. instruments used"
   usage_note: "If possible, record the performer(s) name as well as their role in the performace (e.g. violin)"
-  predicate: null
+  predicate:
   sample_value: "Janos Negyesy, violin ; Aleck Karis, piano"
   range:
     uri: "rdfs:Literal"
@@ -850,21 +821,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
-    faceted: null
-    facet_group: null
+    faceted:
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:physical description":
   definition: "Physical dimensions or characteristics of the physical form of the object."
@@ -878,21 +848,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:preferred citation":
   definition: "Citation to the resource preferred by its custodian of the resource (i.e. UCSD)."
@@ -906,21 +875,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Cite This Work"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:publication":
   definition: "Information on the location and/or entity responsible for publication of the resource."
@@ -934,21 +902,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:related publications":
   definition: "References and cites publications that are related to, or were derived from, or are otherwise related to the resource."
@@ -962,21 +929,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:material details:relationship to other loci":
   definition: "Information on the context of this locus as it relates to other loci in an archaeological site."
@@ -990,21 +956,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:scope and content":
   definition: "Characterization that epitomizes the primary content of a resource, e.g., field recording of birdsong; combined time series analysis and graph plotting system. Can also reference information outside the scope of the specific object, and any relevant content."
@@ -1018,21 +983,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
     display_label: "Scope and Content"   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:statement of responsibility":
   definition: "Statement relating to any persons, families, or corporate bodies responsible for the creation of, or contributing to the content of a resource; usually transcribed."
@@ -1046,21 +1010,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:material details:storage method":
   definition: "Information about the physical storage method of a scientific sample"
@@ -1074,21 +1037,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:series":
   definition: "Information relating to the publication of the resource, e.g. volume, number, issue"
@@ -1102,21 +1064,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
-    faceted: null
-    facet_group: null
+    faceted:
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:technical details":
   definition: "Information that can reflect technical requirements needed to use the resource (both software and hardware). Can also provide information about anomalies, bugs, and other issues that are known about the files in the digital object."
@@ -1130,21 +1091,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:venue":
   definition: "Information about where the object was created or performed. "
@@ -1158,21 +1118,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:work featured":
   definition: "Information about entities and specific intellectual works that are featured in the object."
@@ -1186,21 +1145,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "note:material details:water depth":
   definition: "Information about the depth at which an oceanographic sample was collected"
@@ -1214,21 +1172,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier":
   definition: "A generic identifier for an object."
@@ -1242,21 +1199,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:accession":
   definition: "An archival accession number for the object."
@@ -1270,21 +1226,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:ark":
   definition: "An ARK identifier for an object."
@@ -1298,20 +1253,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:basket number":
@@ -1326,21 +1280,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:call number":
   definition: "A call number identifier for the object"
@@ -1354,25 +1307,24 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:collection number":
-  definition: null
-  usage_note: null
+  definition:
+  usage_note:
   predicate: "http://library.ucsd.edu/ontology/dams4.2#collectionNumberId"
   sample_value: "3558"
   range:
@@ -1382,20 +1334,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:doi":
@@ -1410,21 +1361,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:edm":
   definition: "The Electronic Distance Measurement ID for a resource, usually used in an archaeological dig"
@@ -1438,21 +1388,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:event number":
   definition: "A controlled identifier for an event; used to group objects in the same event together"
@@ -1466,21 +1415,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
+    search_indexed:
     search_group: "Canned search created for event numbers"
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:file name":
   definition: "A source file name for the file of an object"
@@ -1494,20 +1442,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:igsn":
@@ -1522,21 +1469,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:local":
   definition: "An internally-used identifier"
@@ -1550,20 +1496,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:locus number":
@@ -1578,21 +1523,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:negative":
   definition: "An identifier for a photo negative print"
@@ -1606,20 +1550,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:news release number":
@@ -1634,21 +1577,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:oclc number":
   definition: "The \"OCN\" or OCLC Control Number for an object"
@@ -1662,25 +1604,24 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:registration number":
-  definition: null
-  usage_note: null
+  definition:
+  usage_note:
   predicate: "http://library.ucsd.edu/ontology/dams4.2#registrationId"
   sample_value: "24631790"
   range:
@@ -1690,21 +1631,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:catalog record":
   definition: "The identifier from the ILS or catalog (currently Roger records)"
@@ -1718,20 +1658,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:sample number":
@@ -1746,21 +1685,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "identifier:sequence":
   definition: "An identifier for the group of objects that this resource belongs to"
@@ -1774,20 +1712,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "identifier:shared shelf":
@@ -1802,20 +1739,19 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
+    display_label:   
+    display_group:
+    display_order:
     display_suppressed: true
 
 "language":
@@ -1832,19 +1768,18 @@
       sub-authority:
     list: "ISO 639-2"     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: "true?"
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "related resource":
   definition: "A related resource; specifically its title and URL."
@@ -1858,21 +1793,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:topic":
   definition: "A topic or subject of the resource."
@@ -1886,21 +1820,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:anatomy":
   definition: "An anotomical part that is a subject of the resource."
@@ -1914,27 +1847,26 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Anatomy"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:cruise":
   definition: "A research event, bounded by a start and end point (both in time and space)."
   usage_note: "As much as possible, use a controlled form of the cruise / ship / expedition"
   predicate: "olcruise:hasCruise"
-  sample_value: null
+  sample_value:
   range:
     uri: "ucsd:Event"
   controlled_values: 
@@ -1942,21 +1874,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Cruise"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:cultural context":
   definition: "The cultural group represented in the resource."
@@ -1970,27 +1901,26 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Cultural Context"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:genre form":
   definition: "Form category or genre to which a resource belongs"
   usage_note: "DMPS decided to not encode a difference between genre and topic, the D4 to D5 migration will need to account for the mapping"
   predicate: "http://id.loc.gov/ontologies/bibframe/genreForm"
-  sample_value: null
+  sample_value:
   range:
     uri: "skos:Concept"
   controlled_values: 
@@ -1998,21 +1928,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:lithology":
   definition: "The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected."
@@ -2026,21 +1955,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Lithology"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:name":
   definition: "A name of the person that the resource is about."
@@ -2054,21 +1982,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:scientific name":
   definition: "The full scientific name of a species that the object is about."
@@ -2082,21 +2009,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Scientific Name"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "subject:series":
   definition: "Contains the (standardized/authoritative/prefLabel) title of the serial, group of elated items, or event"
@@ -2110,21 +2036,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic?"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "title":
   definition: "The title of the resource."
@@ -2138,21 +2063,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "title:alternative":
   definition: "An alternative title for the resource."
@@ -2166,27 +2090,27 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
+    display_label:   
     display_group: 
       - "?"
-    display_order: null, null
-    display_suppressed: null
+    display_order:
+    display_suppressed:
 
 "title:part name":
   definition: "A part or section name of a title"
   usage_note: "Use a string that designates the part name"
   predicate: "http://www.loc.gov/standards/mods/rdf/v1/#partName"
-  sample_value: null
+  sample_value:
   range:
     uri: "rdfs:Literal"
   controlled_values: 
@@ -2194,27 +2118,26 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "title:part number":
   definition: "A part or section number of a title"
   usage_note: "Use a string that designates the part number"
   predicate: "http://www.loc.gov/standards/mods/rdf/v1/#partNumber"
-  sample_value: null
+  sample_value:
   range:
     uri: "rdfs:Literal"
   controlled_values: 
@@ -2222,21 +2145,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "title:subtitle":
   definition: "A subtitle for the resource (usually transcribed)."
@@ -2250,21 +2172,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "type of resource":
   definition: "The nature or genre of the resource."
@@ -2280,19 +2201,18 @@
       sub-authority:
     list: "id.loc Resource Types"     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Format"
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "copyright status":
   definition: "Information on the known copyright status of a resource."
@@ -2308,19 +2228,18 @@
       sub-authority:
     list: "id.loc copyrightStatus - http://id.loc.gov/vocabulary/preservation/copyrightStatus.html"     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "rights statement":
   definition: "Statement about various property rights associated with the resource, including intellectual property rights"
@@ -2334,25 +2253,24 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "rights note":
   definition: "A free text note capturing copyright information"
-  usage_note: null
+  usage_note:
   predicate: "http://dublincore.org/2012/06/14/dcterms#rights "
   sample_value: "Gypsy's Window, Beyond the End, Homage, A Ring of Changes by Denise Levertov, from COLLECTED EARLIER POEMS 1940-1960, copyright © 1957 by Denise Levertov. Used by permission of New Directions Publishing Corp. "
   range:
@@ -2362,21 +2280,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
-    faceted: null
-    facet_group: null
+    faceted:
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "rights holder":
   definition: "A person or organization owning or managing rights over the resource."
@@ -2390,21 +2307,20 @@
       uri: 
       authority:
       sub-authority:
-    list: null     
+    list:     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:
 
 "license":
   definition: "An associated license for the object (i.e. Creative Commons license, software licenses, etc.)"
@@ -2420,16 +2336,15 @@
       sub-authority:
     list: "DAMS licenses controlled vocabulary"     
   validations: 
-    cardinality: null
+    cardinality:
   facet: 
     faceted: false
-    facet_group: null
+    facet_group:
   search:
-    search_indexed: null
-    search_group: null
+    search_indexed:
+    search_group:
   display:
-    display_label: null   
-    display_group: 
-      - null
-    display_order: null, null
-    display_suppressed: null
+    display_label:   
+    display_group:
+    display_order:
+    display_suppressed:

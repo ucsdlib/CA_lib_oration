@@ -325,7 +325,7 @@
 "note:description":
   definition: "A description or summary of a resource"
   usage_note: "This note is more specialized than a general note. It gives the overall summary of the item, in a more detailed manner than the brief description"
-  predicate: "http://dublincore.org/2012/06/14/dcelements#description"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#description"
   sample_value: "A alteration by unnamed student(s) intended as a parody of De Saint Phalle's Sun God."
   range:
     uri: "rdfs:Literal"

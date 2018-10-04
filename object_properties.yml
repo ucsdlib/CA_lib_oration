@@ -1811,7 +1811,7 @@
 "subject:topic":
   definition: "A topic or subject of the resource."
   usage_note: "For sources of information that are genres (e.g. FAST genres), record them as topics."
-  predicate: "http://dublincore.org/2012/06/14/dcelements#subject"
+  predicate: http://dublincore.org/2012/06/14/dcterms#subject"
   sample_value: "American poetry"
   range:
     uri: "skos:Concept"

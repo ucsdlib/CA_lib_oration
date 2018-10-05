@@ -519,3 +519,4 @@
   predicate: "http://dublincore.org/2012/06/14/dcterms#license"
   range:
     uri: "xsd:anyURI"
+    

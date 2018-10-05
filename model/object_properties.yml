@@ -1,0 +1,522 @@
+"agent:contributor":
+  definition: "A person or organization responsible for making contributions to the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#contributor"
+  range:
+    uri: "ucsd:Agent"
+  
+"agent:creator":
+  definition: "A person or organization responsible for creating the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#creator"
+  range:
+    uri: "ucsd:Agent"
+  
+"agent:publisher":
+  definition: "A person or organization responsible for publishing the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#publisher"
+  range:
+    uri: "ucsd:Agent"
+  
+"agent:[role]":
+  definition: "This isn't an actual property, but a representation of agent roles. "
+  predicate: "[Agent Types Predicate] e.g. agent:author"
+  range:
+    uri: "ucsd:Agent"
+  
+"subject:spatial":
+  definition: "Spatial characteristics of described resource, such as acountry, city, region, address or other geographical term. Captures aboutness."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#spatial"
+  range:
+    uri: "ucsd:Place"
+ 
+"subject:temporal":
+  definition: "Temporal characteristics of the described resource. Captures aboutness."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#temporal"
+  range:
+    uri: "edm:TimeSpan"
+  
+"date":
+  definition: "A point or period of time associated with an event in the lifecycle of the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#date"
+  range:
+    uri: "edm:TimeSpan"
+  
+"date:created":
+  definition: "A date associated with the creation of the resource. "
+  predicate: "http://dublincore.org/2012/06/14/dcterms#created"
+  range:
+    uri: "edm:TimeSpan"
+ 
+"date:event":
+  definition: "The date of the event depicted in the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#eventDate"
+  range:
+    uri: "edm:TimeSpan"
+
+"date:collection":
+  definition: "The date that the physical or digital materials represented by the object were collected."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#collectionDate"
+  range:
+    uri: "edm:TimeSpan"
+
+"date:copyrighted":
+  definition: "The date that the resource was copyrighted."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#dateCopyrighted"
+  range:
+    uri: "edm:TimeSpan"
+  
+"date:issue":
+  definition: "The year in which the resource was issued (e.g., the year a digital collection was first viewable by the public)."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#issued"
+  range:
+    uri: "edm:TimeSpan"
+
+"note:description":
+  definition: "A description or summary of a resource"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#description"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:bibliographic citation":
+  definition: "A bibliographic reference for the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#bibliographicCitation"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:table of contents":
+  definition: "A list of subunits of the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#tableOfContents"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:arrangement":
+  definition: "Information about the organization and arrangement of a collection of items represented by the object."
+  predicate: "http://id.loc.gov/ontologies/bibframe/arrangement"
+  range:
+    uri: "rdfs:Literal"
+
+"note:biography":
+  definition: "A biographical note related to the entity represented in the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#biography"
+  range:
+    uri: "rdfs:Literal"
+  
+"brief description":
+  definition: "A short description of a collection, specifically for use in the Collection Search results.  Only for use in collection level records and does not display in the full Collection level record view."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#briefDescription"
+  range:
+    uri: "rdfs:Literal"
+
+"note:credits":
+  definition: "Information in note form of credits for persons or organizations who have participated in the creation and/or production of the resource."
+  predicate: "http://id.loc.gov/ontologies/bibframe/credits"
+  range:
+    uri: "rdfs:Literal"
+
+"note:custodial history":
+  definition: "Information about the provenance, such as origin, ownership and custodial history (chain of custody), of a resource."
+  predicate: "http://id.loc.gov/ontologies/bibframe/custodialHistory"
+  range:
+    uri: "rdfs:Literal"
+ 
+"note:edition":
+  definition: "Information identifying the edition or version of the resource and associated statements of responsibility for the edition; usually transcribed."
+  predicate: "http://id.loc.gov/ontologies/bibframe/editionStatement"
+  range:
+    uri: "rdfs:Literal"
+ 
+"note:material details:finds":
+  definition: "Reports \"finds\" in a scientific context about an object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#finds"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:funding":
+  definition: "Information identifying organizations that have funded the creation of a resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#funding"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:note":
+  definition: "General textual information relating to a resource"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#abstract"
+  range:
+    uri: "rdfs:Literal"
+
+"note:inscription":
+  definition: "Records information that has been inscribed on the physical form represented by the resource. "
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#inscription"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:material details:limits":
+  definition:
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#limits"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:local attribution":
+  definition: "Denotes which library program is responsible for creating or providing the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#localAttribution"
+  range:
+    uri: "rdfs:Literal"
+
+"note:location of originals":
+  definition: "Information on the physical arrangement of the source materials used to create the object. Can also contain location and contact information for the user to request access to the materials."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#locationOfOriginals"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:material details":
+  definition: "Records aspects about the object's physical representation that aren't strictly dimensions and measurements"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#materialDetails"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:methods":
+  definition: "Information on the methods in which the researcher carried out their research, in relation to the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#methodology"
+  range:
+    uri: "rdfs:Literal"
+
+"note:performer":
+  definition: "Records informations about the performers of the resource, and can indicate their role, e.g. instruments used"
+  predicate:
+  range:
+    uri: "rdfs:Literal"
+
+"note:physical description":
+  definition: "Physical dimensions or characteristics of the physical form of the object."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#physicalDescription"
+  range:
+    uri: "rdfs:Literal"
+
+"note:preferred citation":
+  definition: "Citation to the resource preferred by its custodian of the resource (i.e. UCSD)."
+  predicate: "http://id.loc.gov/ontologies/bibframe/preferredCitation"
+  range:
+    uri: "rdfs:Literal"
+
+"note:publication":
+  definition: "Information on the location and/or entity responsible for publication of the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#publication"
+  range:
+    uri: "rdfs:Literal"
+
+"note:related publications":
+  definition: "References and cites publications that are related to, or were derived from, or are otherwise related to the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#relatedPublications"
+  range:
+    uri: "rdfs:Literal"
+ 
+"note:material details:relationship to other loci":
+  definition: "Information on the context of this locus as it relates to other loci in an archaeological site."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#relationshipToOtherLoci"
+  range:
+    uri: "rdfs:Literal"
+ 
+"note:scope and content":
+  definition: "Characterization that epitomizes the primary content of a resource, e.g., field recording of birdsong; combined time series analysis and graph plotting system. Can also reference information outside the scope of the specific object, and any relevant content."
+  predicate: "http://id.loc.gov/ontologies/bibframe/natureOfContent"
+  range:
+    uri: "rdfs:Literal"
+
+"note:statement of responsibility":
+  definition: "Statement relating to any persons, families, or corporate bodies responsible for the creation of, or contributing to the content of a resource; usually transcribed."
+  predicate: "http://id.loc.gov/ontologies/bibframe/responsibilityStatement"
+  range:
+    uri: "rdfs:Literal"
+
+"note:material details:storage method":
+  definition: "Information about the physical storage method of a scientific sample"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#storageMethod"
+  range:
+    uri: "rdfs:Literal"
+
+"note:series":
+  definition: "Information relating to the publication of the resource, e.g. volume, number, issue"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#seriesNote"
+  range:
+    uri: "rdfs:Literal"
+
+"note:technical details":
+  definition: "Information that can reflect technical requirements needed to use the resource (both software and hardware). Can also provide information about anomalies, bugs, and other issues that are known about the files in the digital object."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#technicalDetails"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:venue":
+  definition: "Information about where the object was created or performed. "
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#venue"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:work featured":
+  definition: "Information about entities and specific intellectual works that are featured in the object."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#workFeatured"
+  range:
+    uri: "rdfs:Literal"
+  
+"note:material details:water depth":
+  definition: "Information about the depth at which an oceanographic sample was collected"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#waterDepth"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier":
+  definition: "A generic identifier for an object."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#identifier"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier:accession":
+  definition: "An archival accession number for the object."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#accessionId"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier:ark":
+  definition: "An ARK identifier for an object."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#arkId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:basket number":
+  definition: "A number for a basket in an archaeological site that the object represents"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#basketId"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier:call number":
+  definition: "A call number identifier for the object"
+  predicate: "http://www.loc.gov/standards/mods/rdf/v1/#classification"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:collection number":
+  definition:
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#collectionNumberId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:doi":
+  definition: "A Digital Object Identifier for the object"
+  predicate: "http://id.loc.gov/vocabulary/identifiers/doi"
+  range:
+    uri: "rdfs:Literal"
+ 
+"identifier:edm":
+  definition: "The Electronic Distance Measurement ID for a resource, usually used in an archaeological dig"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#edmId"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier:event number":
+  definition: "A controlled identifier for an event; used to group objects in the same event together"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#eventId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:file name":
+  definition: "A source file name for the file of an object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#filenameId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:igsn":
+  definition: "The International Geo Sample Number for the object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#igsnId"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier:local":
+  definition: "An internally-used identifier"
+  predicate: "http://id.loc.gov/vocabulary/identifiers/local"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:locus number":
+  definition: "A number for a locus in an archaeological site that the object represents"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#locusId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:negative":
+  definition: "An identifier for a photo negative print"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#negativeId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:news release number":
+  definition: "The assigned news release ID for an object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#newsReleaseId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:oclc number":
+  definition: "The \"OCN\" or OCLC Control Number for an object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#oclcId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:registration number":
+  definition:
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#registrationId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:catalog record":
+  definition: "The identifier from the ILS or catalog (currently Roger records)"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#catalogId"
+  range:
+    uri: "rdfs:Literal"
+    
+"identifier:sample number":
+  definition: "The identifier for the sample represented by the object"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#sampleId"
+  range:
+    uri: "rdfs:Literal"
+  
+"identifier:sequence":
+  definition: "An identifier for the group of objects that this resource belongs to"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#sequenceId"
+  range:
+    uri: "rdfs:Literal"
+
+"identifier:shared shelf":
+  definition: "The identifier for this object taken from a Shared Shelf instance"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#sharedShelfId"
+  range:
+    uri: "rdfs:Literal"
+
+"language":
+  definition: "Language(s) of described resource. Strongly recommended for text materials."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#language"
+  range:
+    uri: "xsd:anyURI"
+
+"related resource":
+  definition: "A related resource; specifically its title and URL."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#relation"
+  range:
+    uri: "ucsd:relatedResource"
+  
+"subject:topic":
+  definition: "A topic or subject of the resource."
+  predicate: http://dublincore.org/2012/06/14/dcterms#subject"
+  range:
+    uri: "skos:Concept"
+
+"subject:anatomy":
+  definition: "An anotomical part that is a subject of the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#anatomy"
+  range:
+    uri: "skos:Concept"
+
+"subject:cruise":
+  definition: "A research event, bounded by a start and end point (both in time and space)."
+  predicate: "olcruise:hasCruise"
+  range:
+    uri: "ucsd:Event"
+
+"subject:cultural context":
+  definition: "The cultural group represented in the resource."
+  predicate: "https://s3.amazonaws.com/VRA/ontology.html#culturalContext"
+  range:
+    uri: "skos:Concept"
+
+"subject:genre form":
+  definition: "Form category or genre to which a resource belongs"
+  predicate: "http://id.loc.gov/ontologies/bibframe/genreForm"
+  range:
+    uri: "skos:Concept"
+
+"subject:lithology":
+  definition: "The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected."
+  predicate: "http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms"
+  range:
+    uri: "skos:Concept"
+
+"subject:name":
+  definition: "A name of the person that the resource is about."
+  predicate: "http://xmlns.com/foaf/spec/#term_name"
+  range:
+    uri: "ucsd:Agent"
+
+"subject:scientific name":
+  definition: "The full scientific name of a species that the object is about."
+  predicate: "http://rs.tdwg.org/dwc/terms/scientificName"
+  range:
+    uri: "skos:Concept"
+
+"subject:series":
+  definition: "Contains the (standardized/authoritative/prefLabel) title of the serial, group of elated items, or event"
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#series"
+  range:
+    uri: "skos:Concept"
+
+"title":
+  definition: "The title of the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#title"
+  range:
+    uri: "rdfs:Literal"
+  
+"title:alternative":
+  definition: "An alternative title for the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#alternative"
+  range:
+    uri: "rdfs:Literal"
+
+"title:part name":
+  definition: "A part or section name of a title"
+  predicate: "http://www.loc.gov/standards/mods/rdf/v1/#partName"
+  range:
+    uri: "rdfs:Literal"
+
+"title:part number":
+  definition: "A part or section number of a title"
+  predicate: "http://www.loc.gov/standards/mods/rdf/v1/#partNumber"
+  range:
+    uri: "rdfs:Literal"
+  
+"title:subtitle":
+  definition: "A subtitle for the resource (usually transcribed)."
+  predicate: "http://www.loc.gov/standards/mads/rdf/v1.html#SubTitleElement"
+  range:
+    uri: "rdfs:Literal"
+  
+"type of resource":
+  definition: "The nature or genre of the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#type"
+  range:
+    uri: "skos:Concept"
+
+"copyright status":
+  definition: "Information on the known copyright status of a resource."
+  predicate: "http://id.loc.gov/vocabulary/preservation/copyrightStatus"
+  range:
+    uri: "xsd:anyURI"
+
+"rights statement":
+  definition: "Statement about various property rights associated with the resource, including intellectual property rights"
+  predicate: "http://www.europeana.eu/schemas/edm/rights"
+  range:
+    uri: "rdfs:Literal"
+  
+"rights note":
+  definition: "A free text note capturing copyright information"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#rights "
+  range:
+    uri: "rdfs:Literal"
+
+"rights holder":
+  definition: "A person or organization owning or managing rights over the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#rightsHolder"
+  range:
+    uri: "ucsd:Agent"
+  
+"license":
+  definition: "An associated license for the object (i.e. Creative Commons license, software licenses, etc.)"
+  predicate: "http://dublincore.org/2012/06/14/dcterms#license"
+  range:
+    uri: "xsd:anyURI"
+    

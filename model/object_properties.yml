@@ -124,6 +124,20 @@
     uri: "rdfs:Literal"
   system_obligation:
 
+ "note":
+  definition: "General textual information relating to a resource"
+  predicate: "tbd"
+  range:
+    uri: "rdfs:Literal"
+  system_obligation:
+  
+ "internal note":
+  definition: "General textual information relating to a resource which is restricted to internal users."
+  predicate: "tbd"
+  range:
+    uri: "rdfs:Literal"
+  system_obligation:  
+  
 "note:credits":
   definition: "Information in note form of credits for persons or organizations who have participated in the creation and/or production of the resource."
   predicate: "http://id.loc.gov/ontologies/bibframe/credits"

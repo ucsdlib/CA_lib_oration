@@ -7,6 +7,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
@@ -28,6 +30,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
@@ -49,6 +53,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
@@ -70,6 +76,8 @@
       authority:
       sub-authority:
     list:    
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Creator"
@@ -91,6 +99,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
@@ -112,6 +122,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
@@ -133,6 +145,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -154,6 +168,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -175,6 +191,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -196,6 +214,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -217,6 +237,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -238,6 +260,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -259,6 +283,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -280,6 +306,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -301,6 +329,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -322,6 +352,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -343,6 +375,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -364,6 +398,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -386,6 +422,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -407,6 +445,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -428,6 +468,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -449,6 +491,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -470,6 +514,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -491,6 +537,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -512,6 +560,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -533,6 +583,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -554,6 +606,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -575,6 +629,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -596,6 +652,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -617,6 +675,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -638,6 +698,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted:
     facet_group:
@@ -659,6 +721,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -680,6 +744,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -701,6 +767,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -722,6 +790,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -743,6 +813,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -764,6 +836,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -785,6 +859,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -806,6 +882,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -827,6 +905,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted:
     facet_group:
@@ -848,6 +928,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -869,6 +951,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -890,6 +974,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -911,6 +997,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -932,6 +1020,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -953,6 +1043,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -974,6 +1066,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -995,6 +1089,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1016,6 +1112,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1037,6 +1135,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1058,6 +1158,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1079,6 +1181,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1100,6 +1204,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1121,6 +1227,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1142,6 +1250,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1163,6 +1273,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1184,6 +1296,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1205,6 +1319,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1226,6 +1342,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1247,6 +1365,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1268,6 +1388,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1289,6 +1411,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1310,6 +1434,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1331,6 +1457,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1352,6 +1480,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1373,6 +1503,8 @@
       authority:
       sub-authority:
     list:      
+  validations: 
+    cardinality:
   facet: 
     faceted: "true?"
     facet_group:
@@ -1394,6 +1526,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1415,6 +1549,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
@@ -1436,6 +1572,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Anatomy"
@@ -1457,6 +1595,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Cruise"
@@ -1478,6 +1618,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Cultural Context"
@@ -1499,6 +1641,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
@@ -1520,6 +1664,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Lithology"
@@ -1541,6 +1687,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic"
@@ -1562,6 +1710,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Scientific Name"
@@ -1583,6 +1733,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Topic?"
@@ -1604,6 +1756,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1625,6 +1779,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1647,6 +1803,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1668,6 +1826,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1689,6 +1849,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1710,6 +1872,8 @@
       authority:
       sub-authority:
     list:      
+  validations: 
+    cardinality:
   facet: 
     faceted: true
     facet_group: "Format"
@@ -1731,6 +1895,8 @@
       authority:
       sub-authority:
     list:   
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1752,6 +1918,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1773,6 +1941,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted:
     facet_group:
@@ -1794,6 +1964,8 @@
       authority:
       sub-authority:
     list:     
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:
@@ -1826,6 +1998,8 @@
       - "https://opensource.org/licenses/BSD-3-Clause"
       - "https://opensource.org/licenses/MIT"
       - "https://www.gnu.org/licenses/gpl-3.0.txt"
+  validations: 
+    cardinality:
   facet: 
     faceted: false
     facet_group:

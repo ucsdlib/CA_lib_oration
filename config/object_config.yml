@@ -273,6 +273,56 @@
     display_group:
     display_order:
     display_suppressed:
+    
+ "note":
+  usage_note: "Repeatable."
+  sample_value: "Title derived from original collection inventory."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: 
+        list:
+            - "label value"
+    display_group:
+    display_order:
+    display_suppressed:
+  
+ "internal note":
+  usage_note: "Repeatable, only displays internally."
+  sample_value: "Title derived from original collection inventory."
+  controlled_values: 
+    vocabularies: 
+      uri: 
+      authority:
+      sub-authority:
+    list:     
+  validations: 
+    cardinality:
+  facet: 
+    faceted: false
+    facet_group:
+  search:
+    search_indexed:
+    search_group:
+  display:
+    display_label: 
+        list:
+            - "label value"
+    display_group:
+    display_order:
+    display_suppressed: true
 
 "note:description":
   usage_note: "This note is more specialized than a general note. It gives the overall summary of the item, in a more detailed manner than the brief description"

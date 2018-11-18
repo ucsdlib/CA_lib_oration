@@ -1,0 +1,15 @@
+---
+layout: default
+title: Glorious Model
+---
+
+<header class="intro">
+    <h1>{{ page.title }}</h1>
+</header>
+
+<ul>
+{% for property in site.data.properties.properties %}
+  <h3>{{ property.name }}</h3>
+  {{ property.definition }}
+{% endfor %}
+</ul>

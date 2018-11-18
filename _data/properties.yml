@@ -1,0 +1,63 @@
+properties:
+  - name: agent:contributor
+  - definition: "A person or organization responsible for making contributions to the resource."
+  - predicate: http://dublincore.org/2012/06/14/dcelements#contributor
+  - range: 
+    uri: "ucsd:Agent"
+  - system_obligation: none
+      
+  - name: agent:creator
+  - definition: "A person or organization responsible for creating the resource."
+  - predicate: "http://dublincore.org/2012/06/14/dcelements#creator"
+  - range:
+    uri: "ucsd:Agent"
+  - system_obligation:
+  
+"agent:publisher":
+  definition: "A person or organization responsible for publishing the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#publisher"
+  range:
+    uri: "ucsd:Agent"
+  system_obligation:
+  
+"agent:[role]":
+  definition: "This isn't an actual property, but a representation of agent roles. "
+  predicate: "[Agent Types Predicate] e.g. agent:author"
+  range:
+    uri: "ucsd:Agent"
+  system_obligation:
+  
+"subject:spatial":
+  definition: "Spatial characteristics of described resource, such as acountry, city, region, address or other geographical term. Captures aboutness."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#spatial"
+  range:
+    uri: "ucsd:Place"
+  system_obligation:
+ 
+"subject:temporal":
+  definition: "Temporal characteristics of the described resource. Captures aboutness."
+  predicate: "http://dublincore.org/2012/06/14/dcterms#temporal"
+  range:
+    uri: "edm:TimeSpan"
+  system_obligation:
+  
+"date":
+  definition: "A point or period of time associated with an event in the lifecycle of the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#date"
+  range:
+    uri: "edm:TimeSpan"
+  system_obligation:
+  
+"date:created":
+  definition: "A date associated with the creation of the resource. "
+  predicate: "http://dublincore.org/2012/06/14/dcterms#created"
+  range:
+    uri: "edm:TimeSpan"
+  system_obligation:
+ 
+"date:event":
+  definition: "The date of the event depicted in the resource."
+  predicate: "http://library.ucsd.edu/ontology/dams4.2#eventDate"
+  range:
+    uri: "edm:TimeSpan"
+  system_obligation:

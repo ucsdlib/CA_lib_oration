@@ -1,0 +1,25 @@
+---
+layout: default
+title: Glorious Model
+---
+
+<header class="intro">
+    <h1>{{ page.title }}</h1>
+</header>
+
+<table>
+  {% for e in site.data.properties %}
+      {% if forloop.first == true %}
+      <tr>
+      {% for item in e %}
+          <th>{{item[0]}}</th>
+      {% endfor %}
+      </tr>
+      {% endif %}
+      <tr>
+      {% for item in e %}
+          <td>{{item[1]}}</td>
+      {% endfor %}
+      </tr>
+  {% endfor %}
+</table>

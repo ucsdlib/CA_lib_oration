@@ -1,0 +1,13 @@
+- name: agent:contributor
+  definition: "A person or organization responsible for making contributions to the resource."
+  predicate: http://dublincore.org/2012/06/14/dcelements#contributor
+  range: 
+    uri: "ucsd:Agent"
+  system_obligation: none
+      
+- name: agent:creator
+  definition: "A person or organization responsible for creating the resource."
+  predicate: "http://dublincore.org/2012/06/14/dcelements#creator"
+  range:
+    uri: "ucsd:Agent"
+  system_obligation: none
